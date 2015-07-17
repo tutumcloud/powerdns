@@ -1,6 +1,6 @@
 FROM ubuntu:trusty
 
-ENV VERSION 3.4.4
+ENV VERSION 3.4.5
 RUN apt-get update && \
 	DEBIAN_FRONTEND=noninteractive apt-get install -yq curl build-essential libcurl3 libboost-dev libboost-program-options-dev libboost-serialization-dev && \
 	apt-get clean && \
